@@ -4,7 +4,7 @@ Challenge 1 involved me writing a short automated test using Playwright with Jav
 
 Before I got started, I ensured that I had the following installed required items installed and I have outlined my steps below:
 
-1.  **Node.js**: Download and install Node.js
+1.  **Node.js**: Download and install Node.js.
 
 2.  **Playwright**: Install Playwright using npm:
 
@@ -25,6 +25,8 @@ Before I got started, I ensured that I had the following installed required item
     ```
 
 ### Steps that are completed when running the Automated Test
+
+I coded the tests in Javascript, and added comments for each section. This code results in the following steps being completed:
 
 1.  **Go to TodoMVC**:
 
@@ -62,21 +64,21 @@ Before I got started, I ensured that I had the following installed required item
 
     -   Ensure that the TODO 2 item is removed from the list.
 
-I also ensured that there were images taken after every step, and there is a video recorded of the process (see items below)
+I also ensured that there were images taken after every step, and there is a video recorded of the process (see items below).
 
 ### Test Reporting and Documentation
 
 1.  **Test Report**:
 
-    -   The user can then generate a test report summarizing the test results using Allure.
+    -   I was able to generate a test report summarizing the test results using Allure.
 
 2.  **Screenshots**:
 
-    -   The user can also include screenshots of the application at different stages of the test execution.
+    -   I was also able to include 8 screenshots of the application at different stages of the test execution.
 
 3.  **Video Recording**:
 
-    -   Include a video recording of each execution.
+    -   There is alsos a video recording of each execution included as well.
 
 ### Running the Tests
 
@@ -96,4 +98,6 @@ allure open
 
 ### Conclusion
 
-This automated test suite ensures that the steps outlined within the test are all completed and can be reviewed in a straightforward way, through checking the screenshots, video and the allure test summary.
+This automated test suite ensures that the steps outlined within the test are all completed and can be reviewed in a straightforward way, through checking the screenshots, video and the allure test summary, and all aspects of the challenge are completed. 
+
+Further work: The tests ran successfully when I was testing, but I noted that the following text showed: Slow test file: tests\test.spec.js (23.1s) - Consider splitting slow test files to speed up parallel execution - 1 passed (32.6s), so you could improve the speed by splitting up the files.
